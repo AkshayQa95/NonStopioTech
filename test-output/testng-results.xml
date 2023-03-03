@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="7" passed="6" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-03-03T12:18:56 IST" name="Default suite" finished-at="2023-03-03T12:19:50 IST" duration-ms="54431">
+    <groups>
+    </groups>
+    <test started-at="2023-03-03T12:18:56 IST" name="Default test" finished-at="2023-03-03T12:19:50 IST" duration-ms="54431">
+      <class name="test.Amazon_Test">
+        <test-method is-config="true" signature="startReport()[pri:0, instance:test.Amazon_Test@20deea7f]" started-at="2023-03-03T12:18:56 IST" name="startReport" finished-at="2023-03-03T12:18:56 IST" duration-ms="271" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReport -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:test.Amazon_Test@20deea7f]" started-at="2023-03-03T12:18:56 IST" name="launchBrowser" finished-at="2023-03-03T12:19:05 IST" duration-ms="9152" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="pageObjects()[pri:0, instance:test.Amazon_Test@20deea7f]" started-at="2023-03-03T12:19:05 IST" name="pageObjects" finished-at="2023-03-03T12:19:05 IST" duration-ms="31" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageObjects -->
+        <test-method signature="apply_Fillters()[pri:1, instance:test.Amazon_Test@20deea7f]" started-at="2023-03-03T12:19:05 IST" name="apply_Fillters" finished-at="2023-03-03T12:19:21 IST" duration-ms="15894" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- apply_Fillters -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:test.Amazon_Test@20deea7f]" started-at="2023-03-03T12:19:21 IST" name="getResult" finished-at="2023-03-03T12:19:21 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=apply_Fillters status=SUCCESS method=Amazon_Test.apply_Fillters()[pri:1, instance:test.Amazon_Test@20deea7f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="select_Fifth_And_EigthProduct()[pri:2, instance:test.Amazon_Test@20deea7f]" started-at="2023-03-03T12:19:21 IST" name="select_Fifth_And_EigthProduct" finished-at="2023-03-03T12:19:36 IST" duration-ms="14257" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- select_Fifth_And_EigthProduct -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:test.Amazon_Test@20deea7f]" started-at="2023-03-03T12:19:36 IST" name="getResult" finished-at="2023-03-03T12:19:36 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=select_Fifth_And_EigthProduct status=SUCCESS method=Amazon_Test.select_Fifth_And_EigthProduct()[pri:2, instance:test.Amazon_Test@20deea7f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="search_L_And_M_Apparel()[pri:3, instance:test.Amazon_Test@20deea7f]" started-at="2023-03-03T12:19:36 IST" name="search_L_And_M_Apparel" finished-at="2023-03-03T12:19:40 IST" duration-ms="4155" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search_L_And_M_Apparel -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:test.Amazon_Test@20deea7f]" started-at="2023-03-03T12:19:40 IST" name="getResult" finished-at="2023-03-03T12:19:40 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=search_L_And_M_Apparel status=SUCCESS method=Amazon_Test.search_L_And_M_Apparel()[pri:3, instance:test.Amazon_Test@20deea7f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="validate_Individual_Product_Price()[pri:4, instance:test.Amazon_Test@20deea7f]" started-at="2023-03-03T12:19:40 IST" name="validate_Individual_Product_Price" finished-at="2023-03-03T12:19:43 IST" duration-ms="2739" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validate_Individual_Product_Price -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:test.Amazon_Test@20deea7f]" started-at="2023-03-03T12:19:43 IST" name="getResult" finished-at="2023-03-03T12:19:43 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validate_Individual_Product_Price status=SUCCESS method=Amazon_Test.validate_Individual_Product_Price()[pri:4, instance:test.Amazon_Test@20deea7f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="validate_Total_Price_In_Cart()[pri:5, instance:test.Amazon_Test@20deea7f]" started-at="2023-03-03T12:19:43 IST" name="validate_Total_Price_In_Cart" finished-at="2023-03-03T12:19:43 IST" duration-ms="33" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validate_Total_Price_In_Cart -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:test.Amazon_Test@20deea7f]" started-at="2023-03-03T12:19:43 IST" name="getResult" finished-at="2023-03-03T12:19:43 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validate_Total_Price_In_Cart status=SUCCESS method=Amazon_Test.validate_Total_Price_In_Cart()[pri:5, instance:test.Amazon_Test@20deea7f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="validate_Total_Price_Less_Than_3500()[pri:6, instance:test.Amazon_Test@20deea7f]" started-at="2023-03-03T12:19:43 IST" name="validate_Total_Price_Less_Than_3500" finished-at="2023-03-03T12:19:43 IST" duration-ms="5" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+expected [true] but found [false]
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
+at main.Amazon_Page.validateTotalPriceLessThan3500(Amazon_Page.java:246)
+at test.Amazon_Test.validate_Total_Price_Less_Than_3500(Amazon_Test.java:73)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validate_Total_Price_Less_Than_3500 -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:test.Amazon_Test@20deea7f]" started-at="2023-03-03T12:19:43 IST" name="getResult" finished-at="2023-03-03T12:19:43 IST" duration-ms="270" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validate_Total_Price_Less_Than_3500 status=FAILURE method=Amazon_Test.validate_Total_Price_Less_Than_3500()[pri:6, instance:test.Amazon_Test@20deea7f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="validate_Cart_Is_Empty()[pri:7, instance:test.Amazon_Test@20deea7f]" started-at="2023-03-03T12:19:43 IST" name="validate_Cart_Is_Empty" finished-at="2023-03-03T12:19:50 IST" duration-ms="7308" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validate_Cart_Is_Empty -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:test.Amazon_Test@20deea7f]" started-at="2023-03-03T12:19:50 IST" name="getResult" finished-at="2023-03-03T12:19:50 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validate_Cart_Is_Empty status=SUCCESS method=Amazon_Test.validate_Cart_Is_Empty()[pri:7, instance:test.Amazon_Test@20deea7f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="endreport()[pri:0, instance:test.Amazon_Test@20deea7f]" started-at="2023-03-03T12:19:50 IST" name="endreport" finished-at="2023-03-03T12:19:50 IST" duration-ms="242" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endreport -->
+      </class> <!-- test.Amazon_Test -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
